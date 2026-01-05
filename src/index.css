@@ -1,9 +1,31 @@
-
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+/* App.css أو أي ملف CSS مرتبط */
+.addpost {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .addpost {
+    max-width: 90%;
+  }
+  .addpost input, .addpost textarea {
+    width: 100%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .addpost {
+    max-width: 400px;
+  }
+}
+
 /* a {
   font-weight: 500;
   color: #646cff;

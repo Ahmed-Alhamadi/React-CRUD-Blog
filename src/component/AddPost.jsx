@@ -38,7 +38,7 @@ export default function AddPost() {
   return (
     <>
       <ToastContainer />
-    <Box component="form" onSubmit={handleSubmit}
+    <Box className="addpost"  component="form" onSubmit={handleSubmit}
       
       sx={{
         position: "absolute",
@@ -53,7 +53,7 @@ export default function AddPost() {
     >
       
       <Stack spacing={2}>
-        <Typography variant="h3" color="initial">
+        <Typography className="typography" variant="h3" color="initial">
           Add Post
         </Typography>
         <br />
@@ -61,11 +61,11 @@ export default function AddPost() {
           setTitle(e.target.value)
         }} />
 
-        <TextField label="المحتوى" value={body}   multiline rows={4} sx={{ width: "500px" }} onChange={(e) => {
+        <TextField label="المحتوى" value={body}   multiline rows={4} sx={{ maxWidth: "500px" }} onChange={(e) => {
           setBody(e.target.value)
         }} />
 
-        <TextField id=""  label="اضافه الصوره" value={image}   sx={{ width: "500px" }} onChange={(e) => {
+        <TextField id=""  label="اضافه الصوره" value={image}   sx={{ maxWidth: "500px" }} onChange={(e) => {
           setImage(e.target.value)
         }} />
       </Stack>
