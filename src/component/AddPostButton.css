@@ -1,0 +1,23 @@
+.but {
+  background-color: #455444;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.7s ease;
+
+}
+
+.but:hover {
+  background-color: #857;
+  font-size: 17px;
+    
+
+  transform: rotate(360deg);
+
+
+
+}

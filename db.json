@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "title": "Similique lorem ex s",
+      "body": "Officia sed distinct",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOufcNS3MmndFsDo_v0HwBXWvIDVnasy3GGw&s",
+      "id": "d5e4"
+    },
+    {
+      "id": "33a7",
+      "title": "Rerum aut dolor moll",
+      "body": "Do ex consectetur vo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtU2EJHq3KzL-0vHXQbSZHQ5wQFAD3yQIoIg&s"
+    },
+    {
+      "id": "d453",
+      "title": "Ea tempor anim exerc",
+      "body": "Voluptate ut ipsum q",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUUY6ABVVOD6tC_q18MUHrx9exn85pbdpGHA&s"
+    }
+  ]
+}
